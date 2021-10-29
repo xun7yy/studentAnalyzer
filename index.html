@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form name='dataForm' id='dataForm'>
+                <label for="fileInput" htmlfor="fileInput" class="fileUpload">Please upload json file here</label>
+                <input type='file' id='fileInput' name='fileInput' accept="application/JSON"></input>
+                <div class="sub-container">
+                    <div class="inner-box">
+                        <label for="wellThreshold">Upper threshold percentage</label>
+                        <div>
+                            <input type="range" id="wellThreshold" name="wellThreshold" value="51" class="bar">
+                            <span id='wellThresholdValue'>51</span><span>%</span>
+                        </div>
+                        <label for="wellCount">Number of words to display</label>
+                        <input type="number" id="wellCount" name="wellCount" min="1" max="5" value="5" class="count">
+                        <div id="wellPool" class='pool'></div>
+                    </div>
+                    <div class="inner-box">
+                        <label for="poorThreshold">Lower threshold percentage</label>
+                        <div>
+                            <input type="range" id="poorThreshold" name="poorThreshold" value="49"  class="bar">
+                            <span id='poorThresholdValue'>49</span><span>%</span>
+                        </div>
+                        <label for="poorCount">Number of words to display</label>
+                        <input type="number" id="poorCount" name="poorCount" min="1" max="5" value="5" class="count">
+                        <div id="poorPool" class='pool'></div>
+                    </div>
+                </div>
+                <button type="submit" class="button">Analyze</button>
+            </form>
+        </div>
+        
+    </body>
+    <script src="./js/index.js"></script>
+</html>
