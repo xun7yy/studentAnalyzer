@@ -1,0 +1,79 @@
+body {
+    font-size: 18px;
+    background-color: #606f7b;
+    color: #606f7b;
+    font-family: 'Arial';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    margin: 10px 0;
+}
+.bar {
+    width: 80%;
+}
+.count {
+    width: 100px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #606f7b;
+    border-radius: 5px;
+}
+.fileUpload {
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-top: 30px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #606f7b;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#fileInput {
+    display: none;
+}
+.container {
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+.sub-container {
+    display: flex;
+    justify-content: center;
+}
+.inner-box {
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.pool {
+    background-color: #ebedef;
+    height: 200px;
+    border-radius: 10px;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 350px;
+    padding: 10px;
+}
+.word {
+    margin: 5px;
+}
+.button {
+    width: 100px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 50px 30px 0;
+    background-color: #606f7b;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    float: right;
+}
